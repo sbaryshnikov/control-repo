@@ -21,10 +21,10 @@ mod 'puppetlabs/concat'
 mod 'puppetlabs/apache'
 mod 'puppetlabs/nginx'
 
-mod 'profile',
-  :git    => 'https://github.com/sbaryshnikov/profile',
+mod 'profiles',
+  :git    => 'https://github.com/sbaryshnikov/profiles',
   :branch => 'production'
 
-mod 'role',
-  :git    => 'https://github.com/sbaryshnikov/role',
+mod 'roles',
+  :git    => 'https://github.com/sbaryshnikov/roles',
   :branch => 'production'
