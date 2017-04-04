@@ -20,6 +20,7 @@
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/apache'
+mod 'puppetlabs/apt'
 mod 'puppet/nginx'
 mod 'puppetlabs/sqlite'
 
