@@ -30,3 +30,7 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+node /^ip-172-31-24-230/ {
+  hiera_include('classes')
+}
