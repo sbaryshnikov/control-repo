@@ -19,3 +19,12 @@ forge "http://forge.puppetlabs.com"
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/apache'
+mod 'puppetlabs/nginx'
+
+mod 'profile',
+  :git    => 'https://github.com/sbaryshnikov/profile',
+  :branch => 'production'
+
+mod 'role',
+  :git    => 'https://github.com/sbaryshnikov/role',
+  :branch => 'production'
