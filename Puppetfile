@@ -20,6 +20,7 @@ mod 'puppetlabs/stdlib'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/apache'
 mod 'puppetlabs/nginx'
+mod 'puppetlabs/sqlite'
 
 mod 'profiles',
   :git    => 'https://github.com/sbaryshnikov/profiles',
