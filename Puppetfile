@@ -19,7 +19,7 @@ forge "http://forge.puppetlabs.com"
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/apache'
-mod 'puppetlabs/nginx'
+mod 'puppet/nginx'
 mod 'puppetlabs/sqlite'
 
 mod 'profiles',
