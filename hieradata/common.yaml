@@ -2,10 +2,10 @@
 message: "This node is using common data"
 
 classes:
-  - profile::nginx
+  - profiles::nginx
   - sqlite
   
-profile::nginx::vhosts:
+profiles::nginx::vhosts:
   - 'fqdn': 'ip-172-31-24-230.us-west-2.compute.internal'
     'port': 80
     'server_aliases': ''
