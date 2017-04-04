@@ -9,3 +9,4 @@ profile::nginx::vhosts:
   - 'fqdn': 'ip-172-31-24-230.us-west-2.compute.internal'
     'port': 80
     'server_aliases': ''
+    'www_root': '/var/www/ip-172-31-24-230.us-west-2.compute.internal'
